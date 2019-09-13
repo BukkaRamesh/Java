@@ -24,6 +24,7 @@ public class LoginController {
     public String init(Model model) {
         model.addAttribute("msg", "Please Enter Your Login Details");
         System.out.println("sample output");
+        System.out.println("sample output new");
         return "login";
     }
  
