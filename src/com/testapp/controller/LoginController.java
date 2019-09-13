@@ -23,6 +23,7 @@ public class LoginController {
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public String init(Model model) {
         model.addAttribute("msg", "Please Enter Your Login Details");
+        System.out.println("sample output");
         return "login";
     }
  
